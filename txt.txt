@@ -1,0 +1,20 @@
+redis - NoSQl 
+
+redis uz ichiga malumotlarni dictionary kurinishida saqlaydi yani <key>:<value>.
+
+SELECT N --change or create database , N - index of database
+
+Set key - create data 
+    set <key>:<value>
+
+Get data - read data
+    get <key>
+
+Del data - delete data 
+    del <key>
+
+Flushdb - clear database. it means delete all data 
+    flushdb
+    
+getdel - read and delete 
+    getdel <key>
